@@ -1,0 +1,24 @@
+
+html{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1rem;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+nav{
+    color: white;
+    background-color: black;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+nav>img{
+    width: 1280px;
+   align-content: center;
+   padding: 0%;
+}
+
+.about-me{
+    max-width: 1280px;
+}
