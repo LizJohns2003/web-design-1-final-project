@@ -11,6 +11,7 @@ nav{
     background-color: black;
     padding-left: 5%;
     padding-right: 5%;
+    
 }
 
 nav>img{
@@ -19,6 +20,33 @@ nav>img{
    padding: 0%;
 }
 
-.about-me{
+.nav-links{
+    display:grid;
+    column-gap: 10px;
+    row-gap: 10px;
+    gap: 10px;
+    grid-template-columns: 400px 200px 200px 200px 200px 200px;
+}
+
+#about-me > img{
     max-width: 1280px;
+  float: right;
+}
+
+.banner-img{
+    width: 1280px;
+    height: auto;
+}
+
+.social-icons{
+display: grid;
+grid-template-columns: 200px 200px 200px;
+justify-items: center;
+}
+
+#quotes{
+   background-color: black; 
+   color: white;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
 }
