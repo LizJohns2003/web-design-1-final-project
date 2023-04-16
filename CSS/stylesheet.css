@@ -22,6 +22,11 @@ nav{
     
 }
 
+.skip-links{
+  background-color: grey;  
+  
+}
+
 main{
     max-width: 1280px;
 }
