@@ -40,13 +40,16 @@ nav>img{
 }
 
 
-#about-me{
- display: grid; 
- grid-gap: 10px;
- grid-template-columns: 2fr 1fr;
- 
 
+#about-me>img{
+display: flex;
+float: right;
 }
+
+#about-me{
+    padding-bottom: 450px;
+}
+
 
 
 .banner-img{
@@ -56,9 +59,25 @@ nav>img{
 
 .social-links{
 text-align: center;
+padding-top: 50px;
+padding-bottom: 70px;
+
+}
+
+#portfolio-images{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    column-gap: 0;
+    justify-content: center;
 }
 
 
+#portfolio-images-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    column-gap: 0;
+    
+}
 
 .creation-info{
     background-color: #fafafa;
@@ -71,7 +90,7 @@ text-align: center;
 }
 
 
-h3:nth-child(3){
+h3:nth-child(2){
     background-color: #fafafa;
     padding-bottom: 10px;
     padding-left: 10px;
@@ -126,7 +145,7 @@ h3:nth-child(3){
    justify-content: center;
 }
 
-h3:nth-child(5){
+h3:nth-child(7){
     text-align: center;
     background-color: black;
     color: white;
@@ -148,4 +167,8 @@ align-content: center;
 
 footer{
     max-width: 1280px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 5px;
 }
